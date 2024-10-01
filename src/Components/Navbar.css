@@ -1,0 +1,50 @@
+.navbar-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #282c34;
+  color: white;
+  padding: 10px 20px;
+  padding-left: 5rem;
+  height: 2.5rem;
+}
+
+.nav {
+  display: flex;
+  justify-content: left;
+  width: 100%;
+  max-width: 1200px;
+  height: 4px;
+  color: white;
+  margin-bottom: 10px;
+  padding: 0;
+}
+.nav-links {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  gap: 2.5rem;
+  align-items: center;
+  width: fit-content;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: black;
+}
+
+.contact-info {
+  font-size: 14px;
+}
+
+.brand {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.sidebar {
+  padding-left: 1rem;
+  padding-right: 7rem;
+  display: flex;
+  justify-content: space-between;
+  background-color: goldenrod;
+}
